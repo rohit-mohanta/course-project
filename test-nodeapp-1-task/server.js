@@ -4,7 +4,7 @@ const express = require('express');
 
 // Constants
 const PORT = 8080;
-const HOST = 'http://alb-1765189401.us-east-1.elb.amazonaws.com/app';
+const HOST = '0.0.0.0';
 
 // App
 const app = express();
