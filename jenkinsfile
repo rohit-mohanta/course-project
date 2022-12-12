@@ -22,7 +22,7 @@ ENDSSH
 				cd course-project/test-nodeapp-1-task/
 				sudo docker build -f dockerfile -t node-app .
 				sudo docker tag node-app:latest public.ecr.aws/e3u3y5v0/rohit-456-repo:latest
-			    sudo docker push public.ecr.aws/e3u3y5v0/rohit-456-repoS:latest
+			    sudo docker push public.ecr.aws/e3u3y5v0/rohit-456-repo:latest
 ENDSSH
 '''
                 }
