@@ -14,7 +14,7 @@ ENDSSH
             }
         }
         
-        stage('buildS') {
+        stage('build') {
             steps {
 		script {
 	 		sh '''#!/bin/bash
